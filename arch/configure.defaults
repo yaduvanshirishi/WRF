@@ -1990,7 +1990,6 @@ DM_FC           =       mpif90
 DM_CC           =       mpicc
 FC              =       mpif90
 CC              =       mpicc
-CXX             =       mpicc
 LD              =       $(FC)
 RWORDSIZE       =       CONFIGURE_RWORDSIZE
 PROMOTION       =       #-fdefault-real-8
@@ -2017,10 +2016,7 @@ ARFLAGS         =      ru
 M4              =      m4 -B 14000
 RANLIB          =      ranlib
 RLFLAGS		=	-c
-CC_TOOLS        =      $(SCC) 
-
-MPI_INC         =      -I/home/virusry/Build_WRF/liba/openmpi/include
-MPI_LIB         =      -I/home/virusry/Build_WRF/liba/openmpi/lib
+CC_TOOLS        =      $(SCC)
 
 
 ###########################################################
